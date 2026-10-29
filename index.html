@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Informativa sulla privacy — Carica</title>
+<style>
+  :root {
+    --ink: #1c1c1e;
+    --soft: #6b6b70;
+    --line: #e6e6ea;
+    --bg: #ffffff;
+    --accent: #0a84ff;
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    font-size: 17px;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 96px;
+  }
+  header { margin-bottom: 40px; }
+  h1 {
+    font-size: 30px;
+    letter-spacing: -0.02em;
+    margin: 0 0 6px;
+  }
+  .updated {
+    color: var(--soft);
+    font-size: 15px;
+    margin: 0;
+  }
+  h2 {
+    font-size: 20px;
+    letter-spacing: -0.01em;
+    margin: 40px 0 10px;
+  }
+  p { margin: 0 0 14px; }
+  ul { margin: 0 0 14px; padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .lead {
+    color: var(--soft);
+    font-size: 17px;
+  }
+  .callout {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 16px 18px;
+    margin: 18px 0;
+    background: #fafafb;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--line);
+    color: var(--soft);
+    font-size: 15px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --ink: #f2f2f7;
+      --soft: #9a9aa2;
+      --line: #2c2c2e;
+      --bg: #000000;
+      --accent: #0a84ff;
+    }
+    .callout { background: #121214; }
+  }
+</style>
+<script>
+  // Browser non in italiano → versione inglese, salvo scelta esplicita dell'italiano (?lang=it).
+  if (!/lang=it/.test(location.search) && !/^it\b/i.test(navigator.language || "")) { location.replace("en/"); }
+</script>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Informativa sulla privacy</h1>
+    <p class="updated">App &ldquo;Carica&rdquo; (versione beta) &middot; Ultimo aggiornamento: 27 ottobre 2026 &middot; <a href="en/" lang="en">English version</a></p>
+  </header>
+
+  <p class="lead">Questa pagina spiega, in modo semplice, quali dati usa l&rsquo;app &ldquo;Carica&rdquo;, perch&eacute; e come li trattiamo. La privacy delle tue informazioni sportive e di salute &egrave; per noi una priorit&agrave;.</p>
+
+  <h2>1. Chi tratta i tuoi dati (Titolare)</h2>
+  <p>Il Titolare del trattamento &egrave; <strong>Jean-Luc Zaganelli</strong>, sviluppatore indipendente dell&rsquo;app &ldquo;Carica&rdquo;. Per qualsiasi domanda sui tuoi dati puoi scrivere a <a href="mailto:carica.beta@gmail.com">carica.beta@gmail.com</a>.</p>
+
+  <h2>2. Premessa: dove vivono i tuoi dati</h2>
+  <p>&ldquo;Carica&rdquo; elabora i tuoi dati di Salute <strong>direttamente su iPhone e Apple Watch</strong> e non li invia allo sviluppatore. Ci sono per&ograve; alcune eccezioni puntuali, descritte nel dettaglio ai punti 3, 5 e 6: lo scaricamento automatico delle mappe del terreno comunica al servizio pubblico che le fornisce il riquadro geografico richiesto; e potresti scegliere volontariamente di inviare un file allo sviluppatore durante il test, oppure di scrivergli tramite la funzione di assistenza dell&rsquo;app, che allega una <strong>diagnosi cifrata</strong> con i tuoi dati sanitari e di attivit&agrave; degli ultimi 28 giorni (punto 6).</p>
+
+  <h2>3. Quali dati utilizza l&rsquo;app</h2>
+  <p>Per calcolare la tua &ldquo;carica&rdquo; (una stima sportiva del tuo livello di energia e recupero), l&rsquo;app legge, tramite l&rsquo;app Salute di Apple (HealthKit), dati come:</p>
+  <ul>
+    <li>frequenza cardiaca e frequenza cardiaca a riposo;</li>
+    <li>variabilit&agrave; della frequenza cardiaca;</li>
+    <li>dati del sonno;</li>
+    <li>allenamenti, passi ed energia consumata;</li>
+    <li>posizione e altitudine durante gli allenamenti (percorso GPS), per calcolare distanza e dislivello.</li>
+  </ul>
+  <p>Questi sono, per legge, <strong>dati particolari relativi alla salute</strong>, e li trattiamo con la massima cautela.</p>
+  <p><strong>Posizione quando apri l&rsquo;app.</strong> Se concedi il permesso di posizione (solo &ldquo;mentre usi l&rsquo;app&rdquo;, mai in sottofondo), Carica legge una sola posizione quando apri l&rsquo;app o la riporti in primo piano, al massimo una volta ogni due ore, per conoscere la quota del luogo in cui ti trovi dalle mappe del terreno. <strong>Le coordinate non vengono conservate</strong> n&eacute; scritte in alcun registro: restano in memoria solo per il tempo della lettura. Sul dispositivo resta uno storico locale degli ultimi 28 giorni con data, quota del terreno e affidabilit&agrave; della lettura, protetto come gli altri dati locali, con richiesta di esclusione dai backup del dispositivo (vedi punto 7) e cancellato con la cancellazione completa dei dati. Puoi negare o revocare il permesso in qualsiasi momento: l&rsquo;app continua a funzionare.</p>
+
+  <h2>4. Perch&eacute; li usa e su quale base</h2>
+  <p>L&rsquo;app usa questi dati <strong>solo</strong> per mostrarti le tue statistiche sportive, la tua &ldquo;carica&rdquo; e l&rsquo;andamento dei tuoi allenamenti. La base giuridica &egrave; il <strong>tuo consenso esplicito</strong> (art. 9 GDPR), che presti attivamente al primo avvio e che puoi revocare in qualsiasi momento disattivando i permessi nell&rsquo;app Salute o disinstallando l&rsquo;app. Lo stesso consenso copre l&rsquo;eventuale invio della diagnosi cifrata all&rsquo;assistenza (punto 6), che avviene soltanto quando sei tu a premere Invia.</p>
+  <p>I dati <strong>non</strong> vengono usati per pubblicit&agrave;, non vengono venduti e non vengono ceduti a terzi per scopi commerciali.</p>
+
+  <h2>5. Servizi esterni utilizzati</h2>
+  <ul>
+    <li><strong>Apple (HealthKit, TestFlight):</strong> l&rsquo;app si appoggia ai servizi Apple; si applicano le condizioni e la privacy policy di Apple.</li>
+    <li><strong>Mappe del terreno:</strong> per correggere l&rsquo;altitudine degli allenamenti con un percorso GPS presenti in Salute &mdash; registrati con Carica o con altre app, per esempio l&rsquo;app Allenamento di Apple &mdash;, dei percorsi che importi tu stesso e per conoscere la quota del luogo in cui ti trovi, l&rsquo;app scarica <strong>in automatico</strong> (anche con rete mobile) le tessere cartografiche del terreno necessarie da un servizio pubblico di dati aperti (&ldquo;Terrain Tiles&rdquo; su AWS Open Data). Quel servizio pu&ograve; vedere <strong>il riquadro geografico richiesto e l&rsquo;indirizzo della tua connessione</strong>, ma non riceve il tuo nome, i tuoi dati di Salute, lo storico delle quote n&eacute; coordinate conservate. Le tessere scaricate restano sul tuo dispositivo finch&eacute; non le elimini dalla pagina &ldquo;Mappe altimetria&rdquo; o non cancelli tutti i dati dell&rsquo;app.</li>
+  </ul>
+  <p>Se partecipi ai test tramite TestFlight, la distribuzione dell&rsquo;app e la gestione degli inviti sono interamente a cura di Apple. Per questo scopo Apple pu&ograve; trattare dati del tuo account Apple, informazioni sul dispositivo e dati diagnostici, secondo la propria informativa sulla privacy (<a href="https://www.apple.com/it/legal/privacy/" target="_blank" rel="noopener">apple.com/it/legal/privacy</a>): Carica non usa server propri per raccogliere questi dati. Eventuali commenti o segnalazioni che scegli di inviare tramite TestFlight possono essere visibili allo sviluppatore.</p>
+
+  <h2>6. Condivisione volontaria durante il test (beta)</h2>
+  <p>Durante la fase di test, potresti <strong>scegliere volontariamente</strong> di inviare allo sviluppatore un file dei tuoi allenamenti (ad esempio un tracciato) per aiutare a migliorare l&rsquo;app. Questo avviene <strong>solo se sei tu ad inviarlo attivamente</strong>. In tal caso lo sviluppatore conserver&agrave; quel file <strong>esclusivamente</strong> per analizzare e migliorare i calcoli, per il tempo necessario al test, e lo canceller&agrave; su tua richiesta. Ti invitiamo a rimuovere il tuo nome dai file prima di inviarli.</p>
+  <p><strong>Assistenza e diagnosi cifrata.</strong> Se nell&rsquo;app tocchi &ldquo;Contatta lo sviluppatore&rdquo; (Impostazioni &rarr; Aiuto e assistenza), Carica prepara sul telefono una diagnosi degli ultimi 28 giorni e la aggiunge, cifrata, a un&rsquo;email gi&agrave; indirizzata allo sviluppatore (<a href="mailto:carica.beta@gmail.com">carica.beta@gmail.com</a>), che si apre nell&rsquo;app Mail di Apple. <strong>La condividi soltanto se premi Invia</strong>: prima puoi modificare il messaggio, togliere l&rsquo;allegato o annullare, e nulla viene inviato in automatico. Se sul telefono non &egrave; configurata l&rsquo;app Mail, Carica ti propone di condividere il solo allegato cifrato con l&rsquo;app che preferisci e copia l&rsquo;indirizzo dello sviluppatore.</p>
+  <p><strong>Scopo:</strong> capire e correggere una Carica anomala o un malfunzionamento dell&rsquo;app. <strong>Contenuto dell&rsquo;allegato:</strong> la Carica di ogni intervallo di 15 minuti; battito, battito a riposo e variabilit&agrave; della frequenza cardiaca; sonno e fasi del sonno; passi, calorie e allenamenti (tipo, orari, calorie, battito medio e distanza); respirazione e ossigeno nel sangue, quando disponibili; i tuoi riferimenti personali di sonno e di variabilit&agrave; cardiaca e lo stato del loro apprendimento (con il numero di giorni, notti e misure valide); et&agrave; in anni, sesso, VO&#8322;max e battito massimo; quanta parte dei dati manca; modello e versione di iPhone, Apple Watch e app. <strong>Non contiene</strong> il tuo nome, la data di nascita, la posizione, i percorsi, le quote n&eacute; i Paesi visitati. <strong>Cifratura:</strong> l&rsquo;allegato viene cifrato sul telefono prima di lasciare l&rsquo;app e pu&ograve; aprirlo soltanto lo sviluppatore, con una chiave che conserva fuori dall&rsquo;app; i dati leggibili non vengono mai scritti sul telefono. Il testo dell&rsquo;email contiene solo la versione e la build dell&rsquo;app, il modello e il sistema dei dispositivi, il fuso orario e un codice casuale della diagnosi, oltre al tuo indirizzo email e a ci&ograve; che scrivi tu. L&rsquo;email passa dal tuo servizio di posta e da quello dello sviluppatore (attualmente Gmail).</p>
+  <p>Lo sviluppatore user&agrave; la diagnosi e il messaggio <strong>esclusivamente</strong> per risponderti e fornirti assistenza, con le regole di conservazione del punto 7.</p>
+
+  <h2>7. Per quanto tempo conserviamo i dati, e i backup del dispositivo</h2>
+  <p>I dati elaborati sul dispositivo restano finch&eacute; tieni l&rsquo;app installata: si cancellano disinstallandola, oppure dalle Impostazioni dell&rsquo;app con la cancellazione completa. Gli eventuali file che ci invii volontariamente (punto 6) vengono cancellati al termine del periodo di test o su tua richiesta. Assistenza (punto 6): la diagnosi cifrata e le eventuali copie decifrate vengono conservate soltanto per gestire la richiesta di assistenza. Sono eliminate appena conclusa l&rsquo;analisi e comunque non oltre 90 giorni dalla ricezione; possono essere cancellate prima su richiesta (punto 8). Lo stesso limite vale per il messaggio di assistenza ricevuto. Carica non pu&ograve; eliminare le copie rimaste nella tua posta inviata o nei sistemi del tuo fornitore email.</p>
+  <p><strong>Backup del dispositivo.</strong> Carica non invia i tuoi dati a servizi cloud di propria iniziativa e non usa iCloud. I backup del dispositivo gestiti da Apple (backup iCloud, backup su Mac o PC) sono un servizio che scegli e controlli tu dalle impostazioni Apple. Dalla versione del 19 ottobre 2026 Carica chiede a iOS di <strong>escludere da quei backup</strong> tutti i dati che derivano da Salute, contengono posizione o sono valori fisiologici (anche se inseriti a mano, come il VO&#8322;max manuale), compresi lo storico e i percorsi degli allenamenti, le mappe del terreno scaricate e le quote dei luoghi, usando il contrassegno di esclusione previsto dal sistema. Si tratta di una richiesta fatta al sistema, non di una garanzia assoluta: Apple decide come applicarla. Nelle normali impostazioni dell&rsquo;app, che entrano nei backup, Carica conserva solo il tuo nome e preferenze che non contengono dati sanitari n&eacute; di posizione (per esempio l&rsquo;aspetto chiaro o scuro). Dopo un ripristino o un cambio di telefono il consenso viene normalmente richiesto di nuovo, e Carica ricostruisce dai dati di Salute ci&ograve; che &egrave; ancora disponibile, man mano che Apple li ripristina; il VO&#8322;max inserito a mano e lo storico del coach vanno reinseriti o ripartono da zero. I backup gi&agrave; creati prima di quella versione possono contenere i dati che l&rsquo;app conservava allora: l&rsquo;app non li modifica n&eacute; li cancella (non ha accesso ai backup), puoi gestirli dalle impostazioni Apple. La cancellazione completa dall&rsquo;app agisce sul dispositivo e non modifica i backup esistenti.</p>
+
+  <h2>8. I tuoi diritti</h2>
+  <p>Hai diritto ad accedere ai tuoi dati, correggerli, cancellarli, limitarne l&rsquo;uso, opporti al trattamento e revocare il consenso in ogni momento. Poich&eacute; i dati risiedono sul tuo dispositivo, puoi esercitare gran parte di questi diritti direttamente (disattivando i permessi o disinstallando l&rsquo;app). Dalle Impostazioni dell&rsquo;app puoi inoltre revocare il consenso in qualsiasi momento: Carica cancellerà allora i dati che ha elaborato e conservato sul tuo dispositivo. Questa cancellazione non riguarda l&rsquo;app Salute di Apple, che resta sempre gestita da te secondo le tue impostazioni Apple. Per gli eventuali file, messaggi o diagnosi di assistenza inviati volontariamente, scrivi a <a href="mailto:carica.beta@gmail.com">carica.beta@gmail.com</a>; per una diagnosi indica il codice riportato nell&rsquo;email. Carica non pu&ograve; eliminare le copie rimaste nella tua posta inviata o nei sistemi del tuo fornitore email: puoi eliminarle tu.</p>
+  <p>Hai inoltre diritto di proporre reclamo all&rsquo;Autorit&agrave; Garante per la protezione dei dati personali (<a href="https://www.garanteprivacy.it" target="_blank" rel="noopener">www.garanteprivacy.it</a>).</p>
+
+  <h2>9. Minori</h2>
+  <p>L&rsquo;app &egrave; destinata a persone <strong>maggiorenni</strong>. Non raccogliamo consapevolmente dati di minori di 18 anni.</p>
+
+  <h2>10. Modifiche</h2>
+  <p>Questa informativa pu&ograve; essere aggiornata. La versione pi&ugrave; recente sar&agrave; sempre disponibile a questo indirizzo, con la data di ultimo aggiornamento in alto.</p>
+
+  <footer>
+    Titolare del trattamento: Jean-Luc Zaganelli &middot; <a href="mailto:carica.beta@gmail.com">carica.beta@gmail.com</a>
+  </footer>
+</div>
+</body>
+</html>
